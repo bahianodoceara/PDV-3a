@@ -27,3 +27,7 @@ body{
     font-style: 32px;
 }
 
+.titulo-principal span{
+    color: var(--verde);
+    
+}
