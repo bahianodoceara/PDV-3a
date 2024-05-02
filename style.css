@@ -1,5 +1,29 @@
 :root{
-    --cor-de-fundo: #39A0FF;
+    --cor-de-fundo: #000000;
     --verde: #46F2C9;
     --branco: #FFFFFF;
+    --botao-ativo: #918a8a;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(50, 55, 94, 0.3);
 }
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: "Chakra Petch", sans-serif;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.titulo-principal{
+    text-align: left;
+    margin: 100%;
+    font-style: 32px;
+}
+
