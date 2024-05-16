@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+
 :root{
     --cor-de-fundo: #000000;
     --verde: #46F2C9;
@@ -16,9 +18,8 @@ body{
 .conteudo-principal{
     display: flex;
     flex-direction: column;
-    justify-content: column;
-    max-width: 1200px;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .titulo-principal{
@@ -29,8 +30,4 @@ body{
 
 .titulo-principal span{
     color: var(--verde);
-}
-
-.botoes{
-    font-family: ;
 }
